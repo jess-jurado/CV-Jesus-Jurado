@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesús G. Jurado | Software Developer</title>
+    <meta name="description" content="Portfolio profesional de Jesús G. Jurado">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-glow"></div>
+
+    <nav>
+        <div class="container"
+            style="padding: 1rem 0; display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-weight: 700; font-size: 1.2rem; font-family: 'Outfit';">JSS<span
+                    class="gradient-text">.DEV</span></div>
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div class="controls"
+                    style="display: flex; gap: 1rem; align-items: center; background: var(--glass-bg); padding: 0.5rem 1rem; border-radius: 100px; border: 1px solid var(--glass-border);">
+                    <select id="lang-select"
+                        style="background: transparent; color: var(--text-main); border: none; font-size: 0.8rem; cursor: pointer; outline: none;">
+                        <option value="es">ES</option>
+                        <option value="en">EN</option>
+                    </select>
+                    <div style="width: 1px; height: 15px; background: var(--glass-border);"></div>
+                    <button id="theme-toggle"
+                        style="background: transparent; border: none; color: var(--text-main); cursor: pointer; display: flex; align-items: center; font-size: 1rem;">
+                        <span id="theme-icon">🌙</span>
+                    </button>
+                </div>
+                <div class="nav-links" style="display: flex; gap: 1.5rem;">
+                    <a href="https://github.com/jess-jurado" target="_blank" data-i18n="nav_github"
+                        style="color: var(--text-dim); text-decoration: none; font-size: 0.9rem;">GitHub</a>
+                    <a href="https://www.linkedin.com/in/jesus-g-jurado-498715191" target="_blank"
+                        data-i18n="nav_linkedin"
+                        style="color: var(--text-dim); text-decoration: none; font-size: 0.9rem;">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container animated" style="text-align: center; padding: 6rem 0;">
+        <h1 data-i18n="hero_title"
+            style="font-size: clamp(2.5rem, 8vw, 4.5rem); margin-bottom: 1rem; font-family: 'Outfit';">Jesús G. Jurado
+        </h1>
+        <h2 data-i18n="hero_subtitle" class="gradient-text" style="font-size: 1.5rem; margin-bottom: 2rem;">
+            Desarrollador de Software | Especialista en Automatización</h2>
+        <p data-i18n="hero_intro"
+            style="max-width: 800px; margin: 0 auto; color: var(--text-dim); font-size: 1.1rem; line-height: 1.8;">
+            Mi trayectoria no es convencional...
+        </p>
+    </header>
+
+    <main class="container">
+        <section id="expectations" class="animated">
+            <h2 data-i18n="expectations_title" class="section-title">Expectativas Profesionales</h2>
+            <div class="glass-card" style="text-align: center; border-left: 4px solid var(--accent-primary);">
+                <p data-i18n="expectations_text" style="font-size: 1.2rem; font-style: italic;">
+                    Como programador con experiencia real...
+                </p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 data-i18n="exp_title" class="section-title">Experiencia Técnica</h2>
+            <div class="glass-card">
+                <div class="exp-item">
+                    <span class="tag" data-i18n="exp_date1">2023 - 2024</span>
+                    <h3 data-i18n="exp_role">Desarrollador de Software</h3>
+                    <p data-i18n="exp_company"
+                        style="color: var(--accent-primary); margin-bottom: 1rem; font-weight: 700;">Energías Del
+                        Mediterráneo</p>
+                    <ul style="list-style: none; color: var(--text-dim);">
+                        <li data-i18n="exp_item1" style="margin-bottom: 0.5rem;">• Desarrollo y mantenimiento del núcleo
+                            del ERP interno.</li>
+                        <li data-i18n="exp_item2" style="margin-bottom: 0.5rem;">• Automatización de procesos ETL desde
+                            servidores FTP.</li>
+                        <li data-i18n="exp_item3" style="margin-bottom: 0.5rem;">• Optimización de consultas SQL para
+                            inteligencia de negocio.</li>
+                        <li data-i18n="exp_item4">• Implementación estratégica de CRM.</li>
+                    </ul>
+                </div>
+                <div class="exp-item" style="border-left-color: transparent;">
+                    <span class="tag" data-i18n="exp_date2">Actual</span>
+                    <h3 data-i18n="exp_evolution">Evolución Continua</h3>
+                    <p data-i18n="exp_evolution_desc" style="color: var(--text-dim);">Enfoque en desarrollo Full-Stack y
+                        Ciberseguridad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 data-i18n="edu_title" class="section-title">Formación de Élite</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="glass-card">
+                    <h3 data-i18n="edu_bootcamp">Bootcamp Ciberseguridad</h3>
+                    <p class="tag" data-i18n="edu_bootcamp_tag">Completado | 42 Málaga</p>
+                    <p data-i18n="edu_bootcamp_desc" style="color: var(--text-dim); font-size: 0.9rem;">Especialización
+                        en Python y sistemas de archivos complejos.</p>
+                </div>
+                <div class="glass-card">
+                    <h3 data-i18n="edu_piscina">La Piscina</h3>
+                    <p class="tag" data-i18n="edu_piscina_tag">42 Málaga</p>
+                    <p data-i18n="edu_piscina_desc" style="color: var(--text-dim); font-size: 0.9rem;">Algoritmia
+                        avanzada y fundamentos de C bajo presión extrema.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 data-i18n="skills_title" class="section-title">Stack Tecnológico</h2>
+            <div class="skills-grid">
+                <div class="skill-tag" data-skill="JavaScript">JavaScript</div>
+                <div class="skill-tag" data-skill="Python">Python</div>
+                <div class="skill-tag" data-skill="SQL">SQL</div>
+                <div class="skill-tag" data-skill="C">C</div>
+                <div class="skill-tag" data-skill="React">React</div>
+                <div class="skill-tag" data-skill="Git">Git</div>
+                <div class="skill-tag" data-skill="Node.js">Node.js</div>
+                <div class="skill-tag" data-skill="ETL">ETL</div>
+            </div>
+        </section>
+    </main>
+
+    <div id="tooltip"
+        style="position: fixed; display: none; background: var(--bg-color); border: 1px solid var(--accent-primary); padding: 1rem; border-radius: 12px; font-size: 0.85rem; max-width: 250px; z-index: 1000; box-shadow: 0 10px 30px rgba(0,0,0,0.5); pointer-events: none; backdrop-filter: blur(10px); color: var(--text-main);">
+    </div>
+
+    <footer class="container" style="padding: 4rem 0; text-align: center; border-top: 1px solid var(--glass-border);">
+        <p data-i18n="footer_text" style="color: var(--text-dim);">&copy; 2026 Jesús G. Jurado. Construido con pasión y
+            código limpio.</p>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
