@@ -22,23 +22,40 @@ function toggleTheme() {
 
 // Tooltip Logic
 const tooltip = document.getElementById('tooltip');
+
+function showTooltip(content, e) {
+    if (content) {
+        tooltip.innerHTML = content;
+        tooltip.style.display = 'block';
+        moveTooltip(e);
+    }
+}
+
+function moveTooltip(e) {
+    tooltip.style.left = e.clientX + 15 + 'px';
+    tooltip.style.top = e.clientY + 15 + 'px';
+}
+
+function hideTooltip() {
+    tooltip.style.display = 'none';
+}
+
 document.querySelectorAll('.skill-tag').forEach(tag => {
     tag.addEventListener('mouseenter', (e) => {
         const skill = e.target.getAttribute('data-skill');
-        if (skillDescriptions[currentLang][skill]) {
-            tooltip.innerHTML = skillDescriptions[currentLang][skill];
-            tooltip.style.display = 'block';
-        }
+        showTooltip(skillDescriptions[currentLang][skill], e);
     });
+    tag.addEventListener('mousemove', moveTooltip);
+    tag.addEventListener('mouseleave', hideTooltip);
+});
 
-    tag.addEventListener('mousemove', (e) => {
-        tooltip.style.left = e.clientX + 15 + 'px';
-        tooltip.style.top = e.clientY + 15 + 'px';
+document.querySelectorAll('.cert-card').forEach(card => {
+    card.addEventListener('mouseenter', (e) => {
+        const cert = e.target.getAttribute('data-cert');
+        showTooltip(certDescriptions[currentLang][cert], e);
     });
-
-    tag.addEventListener('mouseleave', () => {
-        tooltip.style.display = 'none';
-    });
+    card.addEventListener('mousemove', moveTooltip);
+    card.addEventListener('mouseleave', hideTooltip);
 });
 
 // Event Listeners

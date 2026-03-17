@@ -99,3 +99,22 @@ const skillDescriptions = {
         ETL: "Extraction, Transformation, and Loading processes for massive data."
     }
 };
+
+const certDescriptions = {
+    es: {
+        platzi_cert1: "Dominio de HTML5 y CSS3 para crear arquitecturas web sólidas y visualmente atractivas de forma práctica.",
+        platzi_cert2: "Uso avanzado de la terminal, ramas de Git, resolución de conflictos y colaboración profesional en GitHub.",
+        platzi_cert3: "Profundización en ECMAScript+, clausuras, prototipos y las entrañas del lenguaje JavaScript moderno.",
+        platzi_cert4: "Seguridad de la información bajo estándares internacionales, gestión de riesgos y protección de activos digitales.",
+        platzi_cert5: "Eficiencia máxima en el sistema operativo usando Bash, manejo de permisos y automatización desde la consola.",
+        platzi_cert6: "Bases sólidas de lógica de programación, algoritmos y resolución de problemas técnicos fundamentales."
+    },
+    en: {
+        platzi_cert1: "Mastery of HTML5 and CSS3 to create solid and visually appealing web architectures in a practical way.",
+        platzi_cert2: "Advanced terminal usage, Git branches, conflict resolution, and professional collaboration on GitHub.",
+        platzi_cert3: "Deep dive into ECMAScript+, closures, prototypes, and the inner workings of modern JavaScript.",
+        platzi_cert4: "Information security under international standards, risk management, and digital asset protection.",
+        platzi_cert5: "Maximum OS efficiency using Bash, permissions management, and command-line automation.",
+        platzi_cert6: "Solid foundation in programming logic, algorithms, and fundamental technical problem-solving."
+    }
+};
