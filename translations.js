@@ -4,7 +4,7 @@ const translations = {
         nav_linkedin: "LinkedIn",
         hero_title: "Jesús G. Jurado",
         hero_subtitle: "Desarrollador de Software | Especialista en Automatización",
-        hero_intro: "Mi trayectoria no es convencional, y esa es mi mayor ventaja. Con más de una década liderando equipos en el exigente sector de la hostelería, he forjado una resiliencia y una capacidad de resolución de problemas que hoy aplico al desarrollo de software. Busco integrarme en proyectos donde mi madurez profesional y mi pasión técnica por la automatización y la ciberseguridad puedan generar soluciones robustas y escalables.",
+        hero_intro: "Mi trayectoria no es convencional, y esa es mi mayor ventaja. Con más de una década liderando equipos en el exigente sector de la hostelería, he forjado una resiliencia y una capacidad de resolución de problemas que hoy aplico al desarrollo de software. Busco integrarme en proyectos donde mi madurez profesional y mi pasión técnica por la automatización de procesos y el desarrollo backend puedan generar soluciones robustas y escalables.",
         exp_title: "Experiencia Técnica",
         exp_role: "Desarrollador de Software",
         exp_company: "Energías Del Mediterráneo",
@@ -13,7 +13,7 @@ const translations = {
         exp_item3: "Optimización de consultas SQL para inteligencia de negocio.",
         exp_item4: "Implementación estratégica de CRM.",
         exp_evolution: "Evolución Continua",
-        exp_evolution_desc: "Enfoque en desarrollo Full-Stack y Ciberseguridad.",
+        exp_evolution_desc: "Enfoque en desarrollo Full-Stack y Automatización de Procesos.",
         edu_title: "Formación Académica",
         edu_bootcamp: "Bootcamp Ciberseguridad",
         edu_bootcamp_tag: "Completado | 42 Málaga",
@@ -25,7 +25,7 @@ const translations = {
         edu_pau_tag: "Superado | UMA (Málaga)",
         edu_pau_desc: "Certificación oficial de acceso a estudios superiores para perfiles con experiencia profesional madura.",
         edu_history: "Grado en Geografía e Historia",
-        edu_history_tag: "Próxima Matriculación | UNED",
+        edu_history_tag: "Actualmente Cursando | UNED",
         edu_history_desc: "Formación en análisis crítico, gestión documental y síntesis de procesos complejos.",
         platzi_title: "Certificaciones Platzi",
         platzi_cert1: "Desarrollo Frontend Práctico",
@@ -41,14 +41,14 @@ const translations = {
         exp_date1: "2023 - 2024",
         exp_date2: "Actual",
         expectations_title: "Expectativas Profesionales",
-        expectations_text: "Como programador con experiencia real en entornos corporativos, aspiro a seguir creciendo en el área de Backend y Ciberseguridad, aportando una visión pragmática y un enfoque implacable en la eficiencia."
+        expectations_text: "Como programador con experiencia real en entornos corporativos, aspiro a seguir creciendo en el área de Backend y Automatización, aportando una visión pragmática y un enfoque implacable en la eficiencia."
     },
     en: {
         nav_github: "GitHub",
         nav_linkedin: "LinkedIn",
         hero_title: "Jesús G. Jurado",
         hero_subtitle: "Software Developer | Automation Specialist",
-        hero_intro: "My career path is unconventional, and that is my greatest advantage. With over a decade leading teams in the demanding hospitality sector, I have forged a resilience and problem-solving capability that I now apply to software development. I seek to join projects where my professional maturity and technical passion for automation and cybersecurity can create robust and scalable solutions.",
+        hero_intro: "My career path is unconventional, and that is my greatest advantage. With over a decade leading teams in the demanding hospitality sector, I have forged a resilience and problem-solving capability that I now apply to software development. I seek to join projects where my professional maturity and technical passion for process automation and backend development can create robust and scalable solutions.",
         exp_title: "Technical Experience",
         exp_role: "Software Developer",
         exp_company: "Energías Del Mediterráneo",
@@ -57,7 +57,7 @@ const translations = {
         exp_item3: "SQL query optimization for business intelligence.",
         exp_item4: "Strategic CRM implementation.",
         exp_evolution: "Continuous Evolution",
-        exp_evolution_desc: "Focused on Full-Stack development and Cybersecurity.",
+        exp_evolution_desc: "Focused on Full-Stack development and Process Automation.",
         edu_title: "Academic Training",
         edu_bootcamp: "Cybersecurity Bootcamp",
         edu_bootcamp_tag: "Completed | 42 Málaga",
@@ -69,7 +69,7 @@ const translations = {
         edu_pau_tag: "Passed | UMA (Univ. of Málaga)",
         edu_pau_desc: "Official higher education entrance certification for professionals with extensive experience.",
         edu_history: "Bachelor's Degree in Geography and History",
-        edu_history_tag: "Upcoming Enrollment | UNED",
+        edu_history_tag: "Currently Enrolled | UNED",
         edu_history_desc: "Training in critical analysis, document management, and synthesis of complex processes.",
         platzi_title: "Platzi Certifications",
         platzi_cert1: "Practical Frontend Developer",
@@ -85,14 +85,14 @@ const translations = {
         exp_date1: "2023 - 2024",
         exp_date2: "Current",
         expectations_title: "Professional Expectations",
-        expectations_text: "As a programmer with real-world experience in corporate environments, I am eager to continue growing in Backend and Cybersecurity, contributing a pragmatic vision and an unyielding focus on efficiency."
+        expectations_text: "As a programmer with real-world experience in corporate environments, I am eager to continue growing in Backend and Automation, contributing a pragmatic vision and an unyielding focus on efficiency."
     }
 };
 
 const skillDescriptions = {
     es: {
         JavaScript: "Desarrollo de lógica frontend dinámica y automatización con Node.js.",
-        Python: "Automatización de procesos ETL, manejo de datos y ciberseguridad.",
+        Python: "Automatización de procesos ETL, manejo de datos y desarrollo de scripts.",
         SQL: "Diseño de consultas complejas y optimización de bases de datos relacionales.",
         C: "Entendimiento profundo de la memoria y algoritmia de bajo nivel (42 Málaga).",
         React: "Creación de interfaces de usuario modernas, reactivas y componentes reutilizables.",
@@ -102,7 +102,7 @@ const skillDescriptions = {
     },
     en: {
         JavaScript: "Frontend logic development and automation with Node.js.",
-        Python: "ETL process automation, data handling, and cybersecurity scripts.",
+        Python: "ETL process automation, data handling, and custom scripting.",
         SQL: "Complex query design and relational database optimization.",
         C: "Deep understanding of memory and low-level algorithms (42 Málaga).",
         React: "Building modern, reactive user interfaces and reusable components.",
